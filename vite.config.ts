@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/hoonee-math.portfolio.io/',
+  base: '/portfolio/',
     build: {
       outDir: 'docs'
     },
