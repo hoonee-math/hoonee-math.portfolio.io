@@ -6,9 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' 
-    ? '/hoonee-math.portfolio.io/' // 저장소 이름으로 경로 설정
-    : '/',
+  base: '/hoonee-math.portfolio.io',
     build: {
       outDir: 'docs'
     },
