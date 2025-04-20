@@ -1,33 +1,20 @@
 # portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue.js와 Vite를 활용하여 만든 개인 포트폴리오 웹사이트입니다.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Start Project
 
 ## Project Setup
 
-```sh
-npm install
-```
+1. vue & vite 프로젝트 생성
+    ```
+    npm init vue@latest
+    npm install
+    ```
+2. GitHub pages 사용을 위한 설정
+    
+    (1) vite.config.ts (또는 vue.config.js 파일 등) 설정
 
-### Compile and Hot-Reload for Development
+    (2) package.json 설정정
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+3. GitHub repo 생성 및 배포
