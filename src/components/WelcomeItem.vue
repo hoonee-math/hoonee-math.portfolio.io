@@ -41,13 +41,13 @@ h3 {
   color: var(--color-heading);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) { /* 1024 이상일 경우 아이콘 테두리, 두 아이콘 사이 세로줄(before, after) 적용 */
   .item {
     margin-top: 0;
     padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
   }
 
-  i {
+  i { /* 아이콘 영역의 테두리 및 스타일 속성 */
     top: calc(50% - 25px);
     left: -26px;
     position: absolute;
