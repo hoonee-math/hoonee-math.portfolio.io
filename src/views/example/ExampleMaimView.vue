@@ -1,13 +1,10 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/example/HelloWorld.vue'
-import ExampleMaimView from './views/example/ExampleMaimView.vue';
+import HelloWorld from '@/components/example/HelloWorld.vue';
 </script>
 
 <template>
-  <ExampleMaimView/>
-
-  <!-- <header>
+  <header>
     <div class="wrapper">
       <HelloWorld msg="You did it!" />
 
@@ -18,7 +15,7 @@ import ExampleMaimView from './views/example/ExampleMaimView.vue';
     </div>
   </header>
 
-  <RouterView /> -->
+  <RouterView />
 </template>
 
 <style scoped>
