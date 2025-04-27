@@ -1,4 +1,3 @@
-<!-- components/StatusModal.vue -->
 <template>
     <div class="modal" v-if="isVisible">
         <div class="modal-content">
@@ -28,6 +27,10 @@ export default defineComponent({
     name: 'StatusModal',
     props: {
         serverUrl: {
+            type: String,
+            required: true
+        },
+        redirectUrl: {
             type: String,
             required: true
         },
@@ -83,7 +86,7 @@ export default defineComponent({
 
         // 서버로 이동
         const goToServer = () => {
-            window.location.href = props.serverUrl;
+            window.location.href = props.redirectUrl;
         };
 
         // 현재 페이지에 머물기
