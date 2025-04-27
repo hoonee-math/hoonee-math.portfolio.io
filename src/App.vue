@@ -2,10 +2,12 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/example/HelloWorld.vue'
 import ExampleMaimView from './views/example/ExampleMaimView.vue';
+import ServerCheckView from './views/ServerCheckView.vue';
 </script>
 
 <template>
-  <ExampleMaimView/>
+  <ServerCheckView/>
+  <!-- <ExampleMaimView/> -->
 
   <!-- <header>
     <div class="wrapper">
